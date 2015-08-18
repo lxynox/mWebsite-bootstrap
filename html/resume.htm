@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>my resume</title>
+		<!-- img icon in title -->
+		<link rel="shortcut icon" href="../images/title_icon.jpg" type="image/x-icon"/>
+		<!-- css external source -->
+		<link href="resume.css" rel="stylesheet">
+		<script type="text/javascript" src="http://libs.baidu.com/jquery/1.10.2/jquery.min.js">
+		</script> 
+	</head>
+<!-- This is the navigation bar and its items -->	
+	<div id="left_side">
+		<header>
+			<h1 id="home">HOME</h1>	
+			<nav class="tags">
+				<dl>
+					<dt><a href="../index.html">About Me</a></dt>
+					<dt><a href="../contact/contact.php">Contact</a></dt>
+					<dt><a href="../software/software.html">Software Engineering</a></dt>
+					<dt><a href="../android/android.html">Android</a></dt>
+					<dt style="background-color: #750F19"><a href="">Resume</a></dt>  
+				</dl>
+			</nav>
+		</header>
+		<p>I'm <b>Xuanyu Li</b>.</p> 
+		<p>I'm currently working on the field of <b>Software Engineering</b> (J2EE && Android developer).</p>
+		<p>I'm a big fan of software and technology and their magical power that changes people's lives.</p>
+		<div class="head_image">
+	  	<img src="../images/me.jpg" alt="images/me.jpg" width="200" height="200">	
+		</div>
+		<p>I could be reached at <span><i><a href="mailto:xli6@wpi.edu">xli6@wpi.edu</a></i></span></p>
+	</div> 
+<!-- right side section - main contents && resume detail -->
+		<div id="right_side">
+			<div id="header">
+				<div id="header_img"><img src="../images/resume_head.jpg" alt="me.jpg" width="100" height="100"></div>
+				<div id="header_text">
+					<h1>XUANYU LI</h1>
+					<pre>22 homestreet, apt1
+xli6@wpi.edu   (774)5785918</pre>
+				</div>
+			</div>
+			<div id="contents">
+			<!-- contents about myself go here -->
+				<h2>OBJECTIVE</h2>
+				<div class="section_content">
+					<p>seeking for an internship on software enigneering</p>
+				</div>
+			<!--  education section -->
+				<h2>EDUCATION</h2>
+				<div class="section_content">	
+					<h3>Worcester Polytechnic Institute, Worcester, MA
+						<span class= "date">May, 2016</span>
+					</h3>
+					<p>Master of Science, <i>Electrical and Computer Engineering</i>
+						<span>
+							<img src="../images/wpi_stamp.png" alt="WPI badge" 
+							width="50" height="50"/>
+						</span>
+					</p> 
+					<br><br>
+					<h3>Beijing Institute of Technology, Beijing, China
+						<span class= "date">July, 2014</span>
+					</h3>
+					<p>Bachelor of Engineering, <i>Mechatronical Engineering</i>
+						<span>
+							<img src="../images/bit_stamp.png" alt="BIT badge" 
+							width="50" height="50"/>
+						</span>
+					</p> 
+				</div>
+			<!-- skills section -->
+				<h2>COMPUTER SKILLS</h2>
+				<div class="section_content">	
+					<ul type="circle">
+						<li>Programming Language: Java, Python, Javascript, JQuery, Ajax, SQL</li>
+						<li>Software: Eclipse, Android Studio, Git, Github, Tomcat, MySQL, Vim</li>
+						<li>Foreign Language: Mandarin(fluent), German(limited), English(fluent)</li>
+					</ul>
+				</div>
+			<!-- Projects section -->
+				<h2>PROJECTS</h2>
+				<div class="section_content">	
+					<!-- Independent projects -->
+					<h3><i>Independent Projects</i><h3>
+						<!-- project 1 -->
+					<h4>Interactive Programming Using Python
+						<span class="date">Nov, 2014</span>
+					</h4>
+					<button class="view_button" id="proj1_button" onclick="showDetail(1)">view detail</button>
+					<ul type="circle" id="project1">
+						<li>Based on the "Spaceship Craft" as a prototype, under browser-based environment, customized the GUI of the game through multiple built-in packages</li>
+						<li>Applied the OOD && OOP concepts to accomplish the interaction between different objects ships, missiles, and rocks (obstacles) using python to program in a more readable and concise way</li>
+					</ul>
+						<!-- project 2 -->
+					<h4>Simplified Search Engine Project
+						<span class="date">Sept, 2014</span>
+					</h4>
+					<button class="view_button" id="proj2_button" onclick="showDetail(2)">view detail</button>
+					<ul type="circle" id="project2">
+						<li>Applied web-crawler method (using the BFS algorithm) to extract keywords and traverse through all the web pages (URLs) from a seed website</li>
+						<li>Computed the relevancy of URL (roughly linear to its frequency in the website) to its keyword with simplified ranking function algorithm as approximation, used hash table to store the keywords and its mapping URLs</li>
+						<li>Retrieved the relevant webpages sorted in a descending order as response to the input keyword</li>
+					</ul>
+					<!-- Class projects -->
+					<h3><i>Class Projects</i><h3>		
+						<!-- project 3 -->
+					<h4>Online Flight Reservation System, Worcester MA 
+						<span class="date">Apr, 2015</span>
+					</h4>
+					<ul type="circle">
+						<li>Achieved the mapping from problem domain to solution domain according to RAD (requirement analysis doc) and decomposed the system using UML</li>
+						<li>Implemented the system design using java servlet and jsp under MVC framework with multiple design patterns to loose coupling</li>
+						<li>Applied unit and integration tests and designed different test cases and drivers during the process of system testing and validation</li>
+					</ul>
+						<!-- project 4 -->
+					<h4>Writing In Air (android application), Worcester, MA 
+						<span class="date">Apr, 2015</span>
+					</h4>
+					<ul type="circle">
+						<li>Designed an android app to keep track of user writing gestures (single alphabetical) and displayed an image of the target alphabet as output</li>
+						<li>Applied multiple sensors (including linear acceleration, gravity, magnetic) to convert the user input to digital signals and used filters to decrease noise</li>
+						<li>Implemented the UI design and used multiple threads for user interaction, sensor event monitoring (handler), and back-end access (IntentService)</li>
+					</ul>
+						<!-- project 5 -->
+					<h4>Computer Architecture Project, Worcester, MA 
+						<span class="date">Nov, 2014</span>
+					</h4>
+					<ul type="circle">
+						<li>Compared the performance (speed up which is around 10 times) of GPU (64cores) over CPU (single core) through matrix multiplication programming in C under a linux server</li>
+						<li>Optimized the code with different algorithms and improved the performance of the whole CUDA program</li>
+					</ul>
+				</div>
+			<!-- Oversea Experience section -->
+				<h2>OVERSEA EXPERIENCE</h2>
+				<div class="section_content">	
+					<p>Studied in a German primary school for 2 years, Ulm, Germany
+						<span class="date">Jun, 2000 ~ Jun, 2002</span> 
+					</p>
+					<!-- bottom spacing of the main content -->
+					<div class="empty_spacing_div"></div>
+				</div>
+
+			</div>
+		</div>
+
+<!-- empty div for spacing -->
+		<div class="empty_spacing_div"></div>
+<!-- footer div for displaying time -->
+		<div id="footer">
+			<p id="copyright"></p>
+		</div>
+<!-- js scripts -->
+<script src="../script/resume.js"></script>
+<script src="../script/index.js"></script>
+	</body>
+</html>

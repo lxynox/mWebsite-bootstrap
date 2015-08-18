@@ -1,0 +1,158 @@
+
+
+html {
+	font-family: "Times New Roman", sans-serif, Arial; 
+}
+body {
+	background-image: url(../images/resume_background.jpg);
+	background-size: 100% auto;
+	background-repeat: repeat-y;
+}
+/* left side bar with navigation bar */
+#left_side {
+	color: white; 
+	float: left;
+	background-color: #ac2b37;
+	height: inherit;
+	width: 30%; 
+}
+#home {
+	color: white;
+	margin-left: 20px; 
+	margin-bottom: 20px;
+}	
+#left_side a {
+	text-decoration: none;
+	color: white;
+}
+#left_side p {
+	margin-left: 20px;
+}
+nav dl {
+	margin-left: 20px;
+	display: block;
+	margin-bottom: 100px;
+} 
+nav dl dt {
+	padding: 10px;
+	width: 25%;
+	border-bottom: solid 1px #750F19;
+}
+nav dl dt a {
+	text-decoration: none;
+}
+nav dl dt:hover {
+	background-color: #750F19;
+	border-radius: 4px;
+}
+/* right side bar with detail contents about me */ 
+#right_side {
+	clear: right;
+	margin-left: 31%;
+	background-color: white; 
+}
+#right_side h2 {
+	padding: 20px 10px;
+	/*padding-left: 10px;*/
+	#color: #750F19;
+	color: white;
+	background-color: darkgrey;
+	font-family: sans-serif, arial;
+	#border-bottom: 3px lightgrey solid;
+}
+#right_side h3 {
+	margin-left: 20px;
+	font-style: italic;
+}
+ul#ui_list {
+	list-style: none;
+	font-size: 1.1em;
+	float: left;
+	/*text-decoration: none;*/
+}
+ul#ui_list li {
+	padding: 10px;
+	/*background-color: lightgrey;*/
+	border-radius: 5px 5px;
+	border-bottom: 2px lightgrey solid;
+	width: 120px;
+	text-align: center;
+}
+ul#ui_list li:hover {
+	background-color: lightgrey;	
+}
+div#airline_image_frame {
+	width: 400px;
+	height: 300px;
+	background-color: lightgrey;
+	/* position of the image frame */
+	float: right;
+	margin-right: 100px;
+	position: relative;
+	/* overflow: hidden|scroll|auto|visible */
+	overflow: hidden;
+	border-radius: 10px 10px;
+}
+ul#airline_image_container {
+	/*margin: 0px;*/
+	margin-top: 0px;
+	padding: 0px;
+	width: 400px;
+	height: 900px;
+	background-color: cadetblue;
+	list-style: none;
+	/*background: transparent;*/
+	position: absolute;
+	top: 0px;
+	left: 0px;
+}
+ul#airline_image_container li img {
+	/*position: absolute;*/
+	float: left;
+	/*background: red;*/
+}
+
+#right_side h2 .h2_right_spacing {
+	float: right;
+	color: white;
+	margin-right: 0px;
+	border-bottom: white solid 2px
+}
+#right_side p {
+	margin-left: 40px;
+	line-height: 24px;
+	font-style: italic;
+	font-family: Arial,sans-serif;
+}
+.doc_source {
+	font-weight: bold;
+	text-decoration: none;
+	color: lightgrey;
+}
+.doc_source:hover {
+	color: darkgrey;
+}
+/* footer/bottom of the page */
+#footer {
+	background:linear-gradient(to bottom, rgba(37,37,37,1) 0%,rgba(61,61,61,1) 70%);
+	margin-top: 50px;
+	height: 80px;
+	text-align: center;
+	color: white;
+}
+/* images or medias */
+.head_image {
+	margin-left: 20px;
+}	 
+div.empty_spacing_div {
+	height: 50px;
+}
+/* created elements by DOM */
+.createdPara {
+	color: lightgrey;
+	font-size: .8em;
+}
+.hoveredPara {
+	color: black;
+	font-size: 1.0em;
+}

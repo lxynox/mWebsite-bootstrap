@@ -1,0 +1,131 @@
+html {
+	#font-family: "Ubuntu",Helvetica,Arial,sans-serif;
+}
+body {
+	background-image: url(../images/resume_background.jpg);
+	background-size: 100% auto;
+	background-repeat: repeat-y;
+}
+
+/* left side block as navigator */
+#left_side a {
+	text-decoration: none;
+	color: white;
+}
+#left_side {
+	color: white; 
+	float: left;
+	background-color: #ac2b37;
+	height: inherit;
+	width: 30%; 
+}
+#left_side nav dl {
+	margin-left: 20px;
+	display: block;
+	margin-bottom: 100px;
+} 
+#left_side nav dl dt {
+	padding: 10px;
+	width: 25%;
+	border-bottom: solid 1px #750F19;
+}
+#left_side nav dl dt a {
+	text-decoration: none;
+}
+#left_side nav dl dt:hover {
+	background-color: #750F19;
+	border-radius: 4px;
+}
+#home {
+	color: white;
+	margin-left: 20px; 
+	margin-bottom: 20px;
+}	
+#left_side p {
+	margin-left: 20px;
+}
+
+/* right side bar with detail contents about me */ 
+div#right_side {
+	clear: right;
+	font-family: "Ubuntu",Helvetica,Arial,sans-serif;
+	background-color: white; 
+	margin-left: 31%;
+}
+div#header {
+	background-color: #36648B;
+	height: 160px;
+	color: white;
+	text-align: center;
+}
+div#header h1 {
+	padding-top: 50px;
+}
+div#header_img {
+	float: right;
+	padding: 30px;
+}
+div#contents {
+	background-color: white;
+}
+div.section_content {
+	display: none;
+}
+div#contents p {
+	margin-left: 40px;
+}
+span.date {
+	float: right;
+	margin-right: 30px;
+	font-size: .9em;
+	font-weight: normal;
+}
+div#right_side h2 {
+	font-family: Georgia, serif;
+    #text-shadow: 5px 5px 5px #191970;
+	border-bottom: 2px solid #4682B4;
+	padding: 10px;
+	margin-top: 50px;
+	color: #4682B4;
+}
+div#right_side h3 {
+	margin-left: 20px;
+}
+div#right_side h4 {
+	margin-left: 40px;
+}
+div#right_side ul {
+	border-top: dotted lightgrey 2px;
+	border-bottom: dotted lightgrey 2px;
+}
+div#right_side ul li {
+	padding: 5px;
+	font-family: "Times New Roman",Georgia,Serif;
+}
+#project1,#project2 {
+	display: none;
+}
+.view_button {
+	margin-left: 40px;
+}
+div.empty_spacing_div {
+ 	height: 50px;
+ 	clear: both;
+}
+/* footer/bottom of the page */
+#footer {
+	background: linear-gradient(to bottom, rgba(37,37,37,1) 0%,rgba(61,61,61,1) 70%);
+	margin-top: 50px;
+	height: 80px;
+	text-align: center;
+	color: white;
+}
+
+/* images or medias */
+.head_image {
+	margin-left: 20px;
+}	 
+div#contents img {
+	float: right;
+	margin-right: 50px
+}
