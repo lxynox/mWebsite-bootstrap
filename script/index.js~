@@ -65,6 +65,6 @@ function addReturn2Top() {
 
   document.getElementsByTagName('body')[0].appendChild(return_button);
 
-	// appned the className to the button 
+	// set the pos of the button as fixed 
 	addClassName(return_button, "return2topButton");
 }

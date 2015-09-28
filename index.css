@@ -499,6 +499,30 @@ div.empty_spacing_div {
 	font-style: italic;
 	padding: 10px;
 }
+.return2topButton {
+	position: fixed;
+	bottom: 100px;
+	right: 100px;
+	width: 100px;
+	height: 100px;
+   	background:linear-gradient(to bottom, rgba(37,37,37,1) 0%,rgba(61,61,61,1) 70%); 
+	color: white;
+	border-radius:10px 10px 10px 10px;
+}
+/* return to top button sticker */
+.return2topButton li {
+	list-style: none;
+}
+.return2topButton li:nth-child(odd) a {
+	color: white;
+	font-style: bold;
+	font-size: 1.2em;
+}
+.return2topButton li:nth-child(even) {
+	position: absolute;
+	left: 20px;
+	top: 20px;
+}
 
 /* footer/bottom of the page */
 #footer {
