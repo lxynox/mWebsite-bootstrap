@@ -1,5 +1,8 @@
 
 body {
+	background-image: url(images/background/feather.jpg);
+	background-repeat: no-repeat;
+    background-attachment: fixed;
 	background-size: 100% auto;
 	background-repeat: repeat-y;
 	font-family: sans-serif, arial;
@@ -15,9 +18,7 @@ body {
 }
 /* section: ABOUT ME */ 
 #about-me {
-	background-image: url(images/background/boat.jpg);
-	background-size: 100% auto;
-	background-repeat: repeat-y;
+
 }
 #about-me > h1 {
 	padding-left: 20px;
@@ -46,9 +47,7 @@ body {
 
 /* section: CONTACT */
 #contact {
-	background-image: url(images/background/qingming.jpg);
-	background-size: 100% auto;
-	background-repeat: repeat-y;
+
 }
 #contact-wrapper {
 	background-color: transparent;
@@ -161,9 +160,7 @@ body {
 
 /* section: ANDROID */ 
 #android {
-	background-image: url(images/background/feather.jpg);
-	background-size: 100% auto;
-	background-repeat: repeat-y;
+	
 }
 #android > h1 {
 	padding-left: 20px;
@@ -251,9 +248,7 @@ body {
 
 /* section: SOFTWARE ENGINEERING */
 #software-engineering {
-	background-image: url(images/background/qingming.jpg);
-	background-size: 100% auto;
-	background-repeat: repeat-y;
+
 }
 #software-engineering > h1 {
 	padding-left: 20px;
@@ -262,7 +257,7 @@ body {
 #software-engineering-wrapper h2 {
 	/*padding-left: 10px;*/
 	color: white;
-	background-color:#36648B;
+	background-color:darkgrey;
 	margin-top: 50px;
 	padding:10px;
 	text-align: center;
@@ -330,9 +325,7 @@ body {
 
 /* section: RESUME */
 #resume {
-	background-image: url(images/background/feather.jpg);
-	background-size: 100% auto;
-	background-repeat: repeat-y;
+
 }
 #resume h1 {
 	padding-left: 20px;
@@ -347,7 +340,7 @@ body {
 	height: 160px;
 	margin-top: 50px;
 	text-align: center;
-	border-radius: 20px 20px 0 0;
+	#border-radius: 20px 20px 0 0;
 }
 #resume-wrapper > #header > #header_img {
 	float: right;
@@ -500,13 +493,14 @@ div.empty_spacing_div {
 	padding: 10px;
 }
 .return2topButton {
-	position: fixed;
-	bottom: 100px;
-	right: 100px;
-	width: 100px;
-	height: 100px;
    	background:linear-gradient(to bottom, rgba(37,37,37,1) 0%,rgba(61,61,61,1) 70%); 
 	color: white;
+	position: fixed;
+	display: none;
+	bottom: 100px;
+	right: 30px;
+	height: 100px;
+	width: 100px;
 	border-radius:10px 10px 10px 10px;
 }
 /* return to top button sticker */
