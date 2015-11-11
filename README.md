@@ -1,5 +1,5 @@
 # mWebsite-bootstrap
-my personal website using boostrap, contents on updating ......<br />
+my personal website using boostrap, <strong><a href="http://home.allenlxy.com">click me</a></strong>
 skill used:
 <ul type='circle'> 
    <li>HTML5</li>
@@ -9,5 +9,7 @@ skill used:
    <li>PHP</li>
 </ul>
 
-> fork is welcome <br />
-> if push, push to the dev branch is preferred <br />
+> fork is welcome <br/>
+> if push, push to the dev branch is preferred <br/><br/>
+
+<img width=800 height=400 src="home.png" alt="snapshot of my website" />
