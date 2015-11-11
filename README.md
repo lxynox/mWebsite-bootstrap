@@ -1,5 +1,6 @@
 # mWebsite-bootstrap
-my personal website using boostrap, <strong><a href="http://home.allenlxy.com">click me</a></strong>
+my personal website using boostrap, [Visit my website](http://home.allenlxy.com)
+
 skill used:
 <ul type='circle'> 
    <li>HTML5</li>
